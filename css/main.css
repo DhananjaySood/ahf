@@ -1,0 +1,327 @@
+
+
+
+.nav-link{
+    color:black;
+    font-weight: bold;
+    font-family: 'lato',sans-serif;
+    font-size: 17px;
+}
+
+.nav-link:hover{
+   transition: opacity .3s ease-in-out,color .3s ease-in-out;
+   color:crimson;
+}
+
+.navbar-brand{
+    /* Adding two styles to adjust the brand image */
+    position: relative;
+    /* bottom: 14px; Commented out for sometime */
+}
+
+.head-link {
+    text-align: right;
+    position: relative;
+    right: 45px;
+    top: 20px;
+    width:100%; 
+}
+
+.head-link a{
+   text-decoration: none;
+   color: black;
+}
+
+.head-link 
+svg.svg-inline--fa.fa-facebook-square.fa-w-14,
+svg.svg-inline--fa.fa-vimeo-square.fa-w-14,
+svg.svg-inline--fa.fa-instagram.fa-w-14,
+svg.svg-inline--fa.fa-twitter-square.fa-w-14,
+svg.svg-inline--fa.fa-youtube.fa-w-18 {
+    font-size:25px;
+}
+
+.img-for-banner{
+    background-image: url(../images/banner-img.jpeg);
+    width: 100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;    
+    background-attachment: fixed;
+
+}
+
+.banner-content {
+    /* position: absolute; */
+    display: block;
+    color: #fff;
+    font-family: 'Lato',sans-serif;
+    width: 99%;
+    height: 100vh;
+    font-family: sans-serif;
+    padding-top: 150px;
+    line-height: 2.0rem;
+    font-weight: 600;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+      
+    }
+}
+
+
+.btn-donate{
+    background: #f5a11a;
+    border: 3px solid #f5a11a;
+    border-radius: 3px;
+    color: #fff;
+    margin: 0 0 0 19px;
+  overflow: hidden;    
+}
+
+.btn{
+    padding:16px 32px ;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+p.info-text {
+    font-size: 22px;
+    padding: 45px 15px;
+    font-weight: 500;
+}
+
+#our-programs{
+    background-image: url(../images/sec-img-1.jpeg);
+    width: 100%;
+    height:auto;
+    padding: 75px 0;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+#our-programs h2{
+    color: #fff;
+    padding-bottom:50px;
+}
+
+.sec-box-content{
+    border: 5px solid #fff;
+    border-radius:5px;
+    color: #fff;
+    text-align: center;
+    padding: 100px 25px; 
+    margin:5px;
+}
+
+#experience-sec{
+    padding-top:50px;
+    background-color: firebrick;
+    font-family: 'Lato',sans-serif;
+}
+
+#experience-sec > h2{
+    color:#fff;
+    padding-top:25px;
+    padding-bottom:50px;
+}
+
+.card {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 10px;
+}
+
+.card-body h5{
+  font-size: 24px;
+  line-height: 1.5em;
+  color: firebrick;
+  font-weight: 600;
+
+}
+
+.exp-sec-btn{
+    margin-top: 50px;
+    margin-bottom:50px;
+    border-color:#fff;
+}
+
+.exp-sec-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.exp-sec-btn:hover {
+    color: firebrick;
+    background-color: #fff;
+    border-color: #dc3545;
+
+}
+
+.exp-sec-btn:hover a{
+    color:firebrick;
+}
+
+#news-sec{
+    padding-top:75px;
+}
+
+#news-sec h2 {
+    padding-bottom:50px;
+}
+
+#news-sec .card-body {
+    background-color: lightgrey;
+}
+
+.news-sec-btn {
+    margin-top: 50px;
+    margin-bottom:50px;
+    
+}
+
+.news-sec-btn a {
+    color:firebrick;
+    text-decoration: none;
+}
+
+.news-sec-btn:hover a {
+    color: #fff;
+}
+
+
+#help-sec .right-col {
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+ #help-sec .left-col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.help-sec-inner {
+    padding: 70px 70px;
+    /* text-align: center; */
+    color:#fff;
+    font-family: sans-serif;
+}
+
+.help-sec-inner h2 {
+    margin:25px 0px;
+}   
+
+.help-sec-btn {
+    border-color: #fff;
+    margin: 15px 0px;
+}
+
+.help-sec-btn:hover {
+    background-color: #fff;
+}
+
+.help-sec-btn a {
+  color: #fff;
+  text-decoration: none; 
+
+}
+
+.help-sec-btn:hover a {
+  color:firebrick;
+  
+}
+
+@media only screen and (max-width: 768px) {
+    .help-sec-inner {
+        text-align: center;
+      
+    }
+}
+
+.footer-top svg.svg-inline--fa.fa-facebook-square.fa-w-14,
+svg.svg-inline--fa.fa-vimeo-square.fa-w-14,
+svg.svg-inline--fa.fa-twitter-square.fa-w-14,
+svg.svg-inline--fa.fa-youtube.fa-w-18  {
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer-top {
+    background-color: #EAEAEA;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+.footer-top input[type="text"],.footer-top input[type="email"] {
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    color: #212020 !important;
+    font-family: "Lato",sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 7px 14px !important;
+    text-transform: capitalize;
+    width: 214px;
+}
+
+
+.footer-top h5 {
+    font-size: 22px;
+}
+
+
+.footer-top ul {
+    margin:0px;
+    padding: 0px; 
+    list-style-type:none;
+}
+
+.footer-top ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color:#000;
+    font-weight: 500;
+}
+.ft-top-inner,
+.ft-top-subs-sec,
+.ft-top-ul-1,
+.ft-top-ul-2,
+.ft-top-ul-3 {
+ padding-left:20px;
+}
+
+.footer-top .btn {
+    color: #6c757d;
+    padding:10px 32px;
+}
+
+.footer-top .btn:hover{
+    color:#fff;
+}
+
+#pg-footer {
+    height:120px;
+    background-color: #212020;
+}
+
+#pg-footer p {
+    color: #fff;
+    font-size:20px;
+    font-style: italic;
+    padding-top:45px;
+}
